@@ -1,0 +1,1 @@
+{"dsName":"${targetdbname}","table":"${targettbname}","column":null,"preSql":"${redosql}","postSql":null,"batchSize":"1024","session":null,"stepLabel":"ORACLE加载"}

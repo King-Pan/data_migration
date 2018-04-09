@@ -1,0 +1,1 @@
+{"isRelyPre":"0","dsName":"hdfsconfig","path":"/TODB2_PATH/${sourcetbname}","fileType":"CSV","encoding":"UTF-8","compress":null,"isEditColumn":"0","column":["*"],"nullFormat":"N","fieldDelimiter":"u0001","csvReaderConfig":"{"useTextQualifier":false}

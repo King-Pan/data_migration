@@ -1,0 +1,1 @@
+{"shardCnt":1,"strg":"hdfs","contents":[{"dsName":"hdfsconfig","content":"/TODB2_PATH/${sourcetablename}","filter":null}],"stepLabel":"分片"}

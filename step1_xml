@@ -1,0 +1,1 @@
+{"schedType":"sql","dsName":"${sourcedb}","stateExpr":"${sourcexmlid}","stepLabel":"表到达"}

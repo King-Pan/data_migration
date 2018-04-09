@@ -1,0 +1,1 @@
+{"dsName":"${sourcedb}","sql":"${sql}","stepLabel":"hive导出到Hdfs"}
