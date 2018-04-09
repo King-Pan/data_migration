@@ -54,48 +54,48 @@ public class DisInfo {
 	
 	public DisInfo(Map<String,String> map) {
 		super();
-		this.dis_id=map.get("dis_id");
-		this.dis_code=map.get("dis_code");
-		this.dis_name=map.get("dis_name");
-		this.source_dbname=map.get("source_dbname");
-		this.source_tablename=map.get("source_tablename");
-		this.call_cycle_type=map.get("call_cycle_type");
-		this.call_time=map.get("call_time");
-		this.source_xmlid=map.get("source_xmlid");
-		this.export_sql=map.get("export_sql");
-		this.target_type=map.get("target_type");
-		this.target_dbname=map.get("target_dbname");
-		this.target_tablename=map.get("target_tablename");
-		this.target_tablecycle=map.get("target_tablecycle");
-		this.target_tableidx_col=map.get("target_tableidx_col");
-		this.target_tableidx_name=map.get("target_tableidx_name");
-		this.target_xmlid=map.get("target_xmlid");
-		this.load_type=map.get("load_type");
-		this.operate_sql=map.get("operate_sql");
-		this.template_table=map.get("template_table");
-		this.partition_key=map.get("partition_key");
-		this.table_space=map.get("table_space");
-		this.schema_name=map.get("schema_name");
-		this.host_name=map.get("host_name");
-		this.target_dir=map.get("target_dir");
-		this.file_delimiter=map.get("file_delimiter");
-		this.delimiter_size=map.get("delimiter_size");
-		this.dis_type=map.get("dis_type");
-		this.af_action=map.get("af_action");
-		this.cfg_remark=map.get("cfg_remark");
-		this.cur_creater=map.get("cur_creater");
-		this.team_code=map.get("team_code");
-		this.is_active=map.get("is_active");
-		this.redo_times=map.get("redo_times");
-		this.date_col=map.get("date_col");
-		this.map_num=map.get("map_num");
-		this.over_time=map.get("over_time");
-		this.offsetend=map.get("offsetend");
-		this.ftp_host=map.get("ftp_host");
-		this.exp_file_name=map.get("exp_file_name");
-		this.ftp_file_path=map.get("ftp_file_path");
-		this.dis_level=map.get("dis_level");
-		this.is_temp=map.get("is_temp");
+		this.dis_id=map.get("DIS_ID");
+		this.dis_code=map.get("DIS_CODE");
+		this.dis_name=map.get("DIS_NAME");
+		this.source_dbname=map.get("SOURCE_DBNAME");
+		this.source_tablename=map.get("SOURCE_TABLENAME");
+		this.call_cycle_type=map.get("CALL_CYCLE_TYPE");
+		this.call_time=map.get("CALL_TIME");
+		this.source_xmlid=map.get("SOURCE_XMLID");
+		this.export_sql=map.get("EXPORT_SQL");
+		this.target_type=map.get("TARGET_TYPE");
+		this.target_dbname=map.get("TARGET_DBNAME");
+		this.target_tablename=map.get("TARGET_TABLENAME");
+		this.target_tablecycle=map.get("TARGET_TABLECYCLE");
+		this.target_tableidx_col=map.get("TARGET_TABLEIDX_COL");
+		this.target_tableidx_name=map.get("TARGET_TABLEIDX_NAME");
+		this.target_xmlid=map.get("TARGET_XMLID");
+		this.load_type=map.get("LOAD_TYPE");
+		this.operate_sql=map.get("OPERATE_SQL");
+		this.template_table=map.get("TEMPLATE_TABLE");
+		this.partition_key=map.get("PARTITION_KEY");
+		this.table_space=map.get("TABLE_SPACE");
+		this.schema_name=map.get("SCHEMA_NAME");
+		this.host_name=map.get("HOST_NAME");
+		this.target_dir=map.get("TARGET_DIR");
+		this.file_delimiter=map.get("FILE_DELIMITER");
+		this.delimiter_size=map.get("DELIMITER_SIZE");
+		this.dis_type=map.get("DIS_TYPE");
+		this.af_action=map.get("AF_ACTION");
+		this.cfg_remark=map.get("CFG_REMARK");
+		this.cur_creater=map.get("CUR_CREATER");
+		this.team_code=map.get("TEAM_CODE");
+		this.is_active=map.get("IS_ACTIVE");
+		this.redo_times=map.get("REDO_TIMES");
+		this.date_col=map.get("DATE_COL");
+		this.map_num=map.get("MAP_NUM");
+		this.over_time=map.get("OVER_TIME");
+		this.offsetend=map.get("OFFSETEND");
+		this.ftp_host=map.get("FTP_HOST");
+		this.exp_file_name=map.get("EXP_FILE_NAME");
+		this.ftp_file_path=map.get("FTP_FILE_PATH");
+		this.dis_level=map.get("DIS_LEVEL");
+		this.is_temp=map.get("IS_TEMP");
 		
 	}
 	
@@ -430,9 +430,52 @@ public class DisInfo {
 		this.is_temp = is_temp;
 	}
 
-	
-	
-	
-
+	@Override
+	public String toString() {
+		return "DisInfo{" +
+				"dis_id='" + dis_id + '\'' +
+				", dis_code='" + dis_code + '\'' +
+				", dis_name='" + dis_name + '\'' +
+				", source_dbname='" + source_dbname + '\'' +
+				", source_tablename='" + source_tablename + '\'' +
+				", call_cycle_type='" + call_cycle_type + '\'' +
+				", call_time='" + call_time + '\'' +
+				", source_xmlid='" + source_xmlid + '\'' +
+				", export_sql='" + export_sql + '\'' +
+				", target_type='" + target_type + '\'' +
+				", target_dbname='" + target_dbname + '\'' +
+				", target_tablename='" + target_tablename + '\'' +
+				", target_tablecycle='" + target_tablecycle + '\'' +
+				", target_tableidx_col='" + target_tableidx_col + '\'' +
+				", target_tableidx_name='" + target_tableidx_name + '\'' +
+				", target_xmlid='" + target_xmlid + '\'' +
+				", load_type='" + load_type + '\'' +
+				", operate_sql='" + operate_sql + '\'' +
+				", template_table='" + template_table + '\'' +
+				", partition_key='" + partition_key + '\'' +
+				", table_space='" + table_space + '\'' +
+				", schema_name='" + schema_name + '\'' +
+				", host_name='" + host_name + '\'' +
+				", target_dir='" + target_dir + '\'' +
+				", file_delimiter='" + file_delimiter + '\'' +
+				", delimiter_size='" + delimiter_size + '\'' +
+				", dis_type='" + dis_type + '\'' +
+				", af_action='" + af_action + '\'' +
+				", cfg_remark='" + cfg_remark + '\'' +
+				", cur_creater='" + cur_creater + '\'' +
+				", team_code='" + team_code + '\'' +
+				", is_active='" + is_active + '\'' +
+				", redo_times='" + redo_times + '\'' +
+				", date_col='" + date_col + '\'' +
+				", map_num='" + map_num + '\'' +
+				", over_time='" + over_time + '\'' +
+				", offsetend='" + offsetend + '\'' +
+				", ftp_host='" + ftp_host + '\'' +
+				", exp_file_name='" + exp_file_name + '\'' +
+				", ftp_file_path='" + ftp_file_path + '\'' +
+				", dis_level='" + dis_level + '\'' +
+				", is_temp='" + is_temp + '\'' +
+				'}';
+	}
 }
 

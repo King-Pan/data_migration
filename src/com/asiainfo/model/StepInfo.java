@@ -94,5 +94,24 @@ public class StepInfo {
 	public void setRequired_props(String required_props) {
 		this.required_props = required_props;
 	}
-	
+
+
+	@Override
+	public String toString() {
+		return "StepInfo{" +
+				"id='" + id + '\'' +
+				", unit_id='" + unit_id + '\'' +
+				", unit_code='" + unit_code + '\'' +
+				", step_idx='" + step_idx + '\'' +
+				", step_label='" + step_label + '\'' +
+				", step_inst='" + step_inst + '\'' +
+				", step_type='" + step_type + '\'' +
+				", next_step_idx='" + next_step_idx + '\'' +
+				", pre_step_idx='" + pre_step_idx + '\'' +
+				", ignore_err_idx='" + ignore_err_idx + '\'' +
+				", parent_step_idx='" + parent_step_idx + '\'' +
+				", step_cfg_val='" + step_cfg_val + '\'' +
+				", required_props='" + required_props + '\'' +
+				'}';
+	}
 }

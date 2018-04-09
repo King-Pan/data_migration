@@ -143,6 +143,7 @@ public class StartBoot {
                     sinfo.setPre_step_idx("-1");
                     sinfo.setIgnore_err_idx("");
                     sinfo.setParent_step_idx("");
+                    System.out.println("DisInfo----->"+info);
                     String so = xs.readToStringStep1(info.getSource_dbname(), info.getSource_xmlid());
                     sinfo.setStep_cfg_val(so);
                     sinfo.setRequired_props("[\"dsName\",\"stateExpr\"]");
